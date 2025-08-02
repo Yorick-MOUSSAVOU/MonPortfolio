@@ -15,7 +15,7 @@ export default function App() {
       <header className="bg-sky-900 shadow-md px-10 border">
         <div className="navbar px-6">
           <div className="flex-1">
-            <a className="text-xl font-bold"><img src="/public/assets/logo.png" height={30} width={30} alt="logo" /></a>
+            <a className="text-xl font-bold"><img src="/assets/logo.png" height={30} width={30} alt="logo" /></a>
           </div>
 
           {/* Menu pour desktop */}
