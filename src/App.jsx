@@ -56,7 +56,7 @@ export default function App() {
         <div className="w-full flex max-md:flex-col max-md:items-center items-center justify-between">
           <div className="flex flex-col gap-y-6 overflow-hidden">
             <div className="">
-              <p className="font-light text-4xl">Bonjour à vous! Je suis...</p>
+              <p className="font-light text-4xl">Bonjour à vous non! Je suis...</p>
               <h1 className="font-semibold text-7xl max-md:text-5xl">Yorick MOUSSAVOU</h1>
               <p className="font-medium text-4xl">Développeur fullstack</p>
             </div>
