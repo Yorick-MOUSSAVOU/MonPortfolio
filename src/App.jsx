@@ -43,7 +43,7 @@ export default function App() {
             </label>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-sky-900 rounded-box w-52 uppercase"
+              className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-sky-900 rounded-box w-52 uppercase mr-3.5"
             >
               {listMenu.map((menu) => (
                 <Menu key={menu.id} {...menu} />
@@ -56,7 +56,7 @@ export default function App() {
         <div className="w-full flex max-md:flex-col max-md:items-center items-center justify-between">
           <div className="flex flex-col gap-y-6 overflow-hidden">
             <div className="">
-              <p className="font-light text-4xl">Bonjour à vous non! Je suis...</p>
+              <p className="font-light text-4xl">Bonjour à vous ! Je suis...</p>
               <h1 className="font-semibold text-7xl max-md:text-5xl">Yorick MOUSSAVOU</h1>
               <p className="font-medium text-4xl">Développeur fullstack</p>
             </div>
@@ -74,7 +74,7 @@ export default function App() {
       </section>
 
       <section id="skills" className="min-h-screen md:min-h-[500px] bg-gray-100 p-10">
-        <h2 className="text-3xl text-center text-sky-900 font-bold mb-20">Skills</h2>
+        <h2 className="text-3xl text-center text-sky-900 font-bold mb-20">Competences</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-10">
           <Skills
             titre="Front End"
@@ -118,7 +118,7 @@ export default function App() {
             <div className="collapse collapse-arrow join-item">
               <input type="radio" name="my-accordion-4" defaultChecked />
               <div className="collapse-title text-lg font-semibold bg-blue-100 hover:bg-blue-200 transition-all duration-200">
-                Année de naissance ?
+                Date de naissance ?
               </div>
               <div className="collapse-content text-gray-700 bg-white px-5 py-3 text-base">
                 15 novembre 2000.
