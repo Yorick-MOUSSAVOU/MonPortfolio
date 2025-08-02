@@ -67,8 +67,8 @@ export default function App() {
             </div>
         </div>
         <div>
-          <img src="/public/assets/profil-gyo (2).jpeg" alt="profil" className="max-md:hidden h-70 w-70 rounded-bl-full hover:scale-110 duration-1000 transition-all ease-in-out"/>
-          <img src="/public/assets/profil-gyo (2).jpeg" alt="profil" className="max-md:hidden h-70 w-70 rounded-tr-full hover:scale-110 duration-1000 transition-all ease-in-out"/>
+          <img src="/assets/profil-gyo (2).jpeg" alt="profil" className="max-md:hidden h-70 w-70 rounded-bl-full hover:scale-110 duration-1000 transition-all ease-in-out"/>
+          <img src="/assets/profil-gyo (2).jpeg" alt="profil" className="max-md:hidden h-70 w-70 rounded-tr-full hover:scale-110 duration-1000 transition-all ease-in-out"/>
         </div>
         </div>
       </section>
@@ -100,7 +100,7 @@ export default function App() {
         </div>
       </section>
 
-      <section id="contact" className="relative min-h-screen md:min-h-[500px] p-10 bg-[url(public/assets/bg-contact.jpeg)] bg-cover bg-center">
+      <section id="contact" className="relative min-h-screen md:min-h-[500px] p-10 bg-[url(/assets/bg-contact.jpeg)] bg-cover bg-center">
         <div className="absolute inset-0 bg-black/60 bg-opacity-1"></div>
         <h2 className="text-3xl text-center text-sky-900 font-bold mb-20">Contact</h2>
         <div className="flex justify-center items-center gap-12">
