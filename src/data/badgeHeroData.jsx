@@ -4,7 +4,7 @@ export const badgeHero = [
   {
     id: 0,
     img:"/assets/logos--github-octocat.png",
-    path:"",
+    path:"https://github.com/",
     name:"github"
   },
    {
@@ -16,7 +16,7 @@ export const badgeHero = [
    {
     id: 0,
     img:"/assets/logos--google-gmail.png",
-    path:"",
+    path:"https://mail.google.com/mail/u/0/#inbox",
     name:"mail"
   }
 ]
